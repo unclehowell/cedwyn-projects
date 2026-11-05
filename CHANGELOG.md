@@ -1,0 +1,150 @@
+# Changelog
+
+## [0.1.4] - 2026-11-04
+
+### Added
+- **Autonomy Roadmap — Human-out-of-loop (Phase 1 enabling)** documented as HubSpot Deal 535973332212 (associated to Programme Umbrella).
+  - Full vision locked: Argentina replica/museum (O2), Wales AR tour (O1), multi-purpose truth-seeking + revenue website, central evidence DB, PRINCE2 discipline.
+  - Standing operating procedures, escalation matrix (agent vs Executive), success metrics for removing the Executive from day-to-day instruction loop.
+  - First-cycle tasks created: AUTONOMY-01 (vision-to-webapp disconnect audit), AUTONOMY-02 (current-period Highlight Report), AUTONOMY-03 (O3 evidence chronology gaps), AUTONOMY-04 (Argentina research & model readiness), AUTONOMY-05 (correspondence triage + high-stakes queue only).
+  - Progress note recorded after live-site scan (objectives register, Dartboard, Chessboard, Wayback, missing-records, catalogue metrics).
+- Master Plan Note attached to the Deal. Flywheels now run against the documented plan; Executive receives only tolerance breaches, land/money/legal steps, or items requiring written authority.
+
+### Notes
+- No change to existing project percentages, RAG states, or O5 gate conditions.
+- Existing Tab / BIZDEV flywheels continue; this Deal formalises the Human-out-of-loop target.
+
+## [0.1.3] - 2026-10-30
+
+### Changed
+- Master highlight report refreshed for the 22–30 October 2026 period: added a compacted, coverage-labelled HubSpot work-queue view (snapshot 30 Oct 00:41 UTC: 2,065 task records; 1,121 completed; 944 open; composition and due-date caveats labelled) and an evidenced PRINCE2 controls/gaps section from queue-recorded governance tasks.
+- Dashboard gained a compact work-queue section linking to the highlight report and the new machine-readable snapshot.
+- No project percentages, RAG states, gate criteria or role appointments were changed; the 22 Oct measures remain with their existing labels, and no like-for-like queue movement is published because snapshot coverage differs.
+
+### Added
+- `data/hubspot-snapshot.json`: machine-readable compacted queue snapshot with counts, coverage notes, review-gate aggregates and governance task states.
+
+
+## [0.1.1] - 2026-10-24
+
+### Fixed
+- Replace the non-semantic `0.1-working` programme-data label with a tracked semantic version.
+- Synchronize the programme data, root `.version`, and reader-facing README release marker.
+
+### Reviewed
+- Confirmed production output is `projects/public/`, the home page is the PID, and the checker has required-file/content gates.
+- No project statuses, milestones, completion claims or conditional P4 activation criteria were changed.
+
+## 2026-10-22 — Programme restructure: three active projects
+
+- Replaced the Parcel A-only root dashboard with programme-level PID/status for P1 museum, P2 Wales recovery and P3 AR heritage tour.
+- Added master mandate, plan and highlight report, individual active-project plans/reports, P4 conditional activation gate and machine-readable baseline.
+- Labelled task-baseline progress separately from end-to-end museum/AR delivery; retained P2's provisional ledger caveat and avoided an ungrounded programme-wide percentage.
+- Re-routed historical PID paths to current canonical projects; archived the former root dashboard as a dated snapshot.
+- Preserved the prior detailed evidence-recovery tracker and archived PID pack.
+
+
+## [cnei-v0.0.0.48] - 2026-06-04
+
+### Fixed
+- fix(cnei): Create Privacy Policy page for legal compliance
+- fix(cnei): Create Terms of Service page for legal compliance
+- fix(cnei): Create Contact page with form and contact details
+
+### Changed
+- ux(cnei): Add smooth scrolling for better UX
+
+## [bpvsbuckler-v0.0.0.10-aws] - 2026-05-28
+
+### Fixed
+- fix(bpvsbuckler): Remove excessive blank lines
+
+### Changed
+- ux(bpvsbuckler): Add minimum tap target sizes for mobile UX
+
+## [bpvsbuckler-v0.0.0.09-aws] - 2026-05-28
+
+### Fixed
+- fix(bpvsbuckler): Add proper title to 404 page for SEO
+- fix(bpvsbuckler): Create Terms of Service page for legal compliance
+- fix(bpvsbuckler): Remove excessive blank lines
+
+### Changed
+- ux(bpvsbuckler): Add cookie consent banner for GDPR compliance
+
+## [bpvsbuckler-v0.0.0.10] - 2026-05-26
+
+### Added
+- Add Beurcracy pinball page with Land Registry to ICR escalation flow
+- Inject Beurcracy link into SPA nav alongside Home, Reparations, Script
+
+### Changed
+- Strip nav/header/score from beurcracy pinball pages for clean canvas-only display
+
+### Fixed
+- Remove extra injected nav bar causing duplicate navigation
+
+## [bpvsbuckler-v0.0.0.09] - 2026-05-26
+
+### Fixed
+- fix(bpvsbuckler): switch to file-based build, no npm/bun needed
+- fix(bpvsbuckler): restore old SPA download in build command
+- fix(bpvsbuckler): use POSIX-only build command
+- fix(bpvsbuckler): fix build script to use rsync
+- fix(bpvsbuckler): switch source to old pages.dev deployment
+
+### Changed
+- ux(bpvsbuckler): beurcracy pinball page with audio and flippers
+
+## [bpvsbuckler-v0.0.0.08] - 2026-05-26
+
+### Fixed
+- fix(bpvsbuckler): Create Contact page with form and contact details
+- fix(bpvsbuckler): Launch blog with welcome post and index page
+- fix(bpvsbuckler): Create Privacy Policy page for legal compliance
+
+### Changed
+- ux(bpvsbuckler): Add print-friendly styles for better UX
+
+## [bpvsbuckler-v0.0.0.07] - 2026-05-25
+
+### Fixed
+- fix(bpvsbuckler): Remove excessive blank lines
+- fix(bpvsbuckler): Remove excessive blank lines
+- fix(bpvsbuckler): Remove excessive blank lines
+
+### Changed
+- ux(bpvsbuckler): Add hover styles for interactive elements
+
+## [0.0.1.0] - 2026-05-24
+
+### Fixed
+- Identified issue: JSON parse error: Expecting "," delimiter (requires manual fix)
+
+## [bpvsbuckler-v0.0.0.16] - 2026-05-31
+
+### Added
+- feat(bpvsbuckler): Add 13 new timeline entries covering 1916–1993 gaps
+  - 1916 – John Williams granted agricultural tenancy by Marquess of Bute
+  - 1949 – Intended tenancy transfer from John Williams to Frederick Buckler
+  - 1959 – Mary Buckler/Williams asserted hereditary ownership claim
+  - 1969 – Parcel B, and an interest in the 1962 order on Parcel A, passed to BP Pension Trust Ltd (our case: not the whole farm)
+  - 1970 – Llandough Primary School opened on former farm land
+  - 1974 – Judge Watkin Powell granted leave to enforce 1962 possession order
+  - 1974 – Mary Buckler/Williams opposed eviction through press coverage
+  - 1974 – BP Pension Trust and BP Properties issued life rent-free licence letters
+  - 1974 – Possession warrant withdrawn; Mary remained in occupation
+  - 1979 – Roman villa and bathhouse uncovered during housing development
+  - 1987 – Corinthian Close and Tuscan Close constructed over Roman villa site
+  - 1988 – Final removal of remaining Buckler occupants from Great House Farm
+  - 1993 – The Glamorgan Village Book recorded the Roman villa discovery
+
+## [Unreleased]
+
+
+
+## 2026-10-22 — Reader-facing site directory
+
+- Added a grouped, public-facing directory so readers can tell the estate map, evidence/archive tools, project pages, visual interpretation and game pages apart.
+- Linked the directory from the programme homepage and shared navigation/footer; added a machine-readable public directory and build checks.
+- Kept operational task details, branch inventory and deployment configuration out of the public reader directory.

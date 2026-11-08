@@ -10,32 +10,12 @@
   "status",
   "page"
  ],
- "synced_utc": "2026-11-07T21:11:28Z",
- "count": 61,
+ "synced_utc": "2026-11-08T01:36:30Z",
+ "count": 81,
  "not_in_central": [
-  "EV-0222",
-  "EV-0223",
-  "EV-0224",
-  "EV-0225",
   "EV-0226",
-  "EV-0227",
-  "EV-0228",
-  "EV-0230",
   "EV-0234",
-  "EV-0238",
-  "EV-0239",
-  "EV-0243",
-  "EV-0244",
-  "EV-0249",
-  "EV-0255",
-  "EV-0256",
-  "EV-0263",
-  "EV-0277",
-  "EV-0513",
-  "EV-0614",
-  "EV-0617",
-  "MR-0060",
-  "MR-0061"
+  "EV-0255"
  ],
  "items": {
   "EV-0001": {
@@ -380,6 +360,141 @@
    "status": "PENDING",
    "page": null
   },
+  "EV-0222": {
+   "id": "EV-0222",
+   "kind": "evidence",
+   "title": "DBDT121/3: agreement (counterpart) for tenancy of farm land in the parish of Leckwith, Western Ground Rents Limited and William Samuel Coles, with plan",
+   "date_display": "Oct 1944 (catalogue date; day not given)",
+   "date_sort": "1944-10",
+   "status": "PENDING",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0222-dbdt121-3-wgr-coles-leckwith-tenancy-1944/"
+  },
+  "EV-0223": {
+   "id": "EV-0223",
+   "kind": "evidence",
+   "title": "1881 census: reported Llandough Home Farm / R-W-S-S Farm wording",
+   "date_display": null,
+   "date_sort": null,
+   "status": null,
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0223-1881-census-name-variant/"
+  },
+  "EV-0224": {
+   "id": "EV-0224",
+   "kind": "evidence",
+   "title": "1881 census, Llandough, RG11/5288 page 2: “Llandough Home Farm”, John Williams, farmer",
+   "date_display": "Census night, 3 April 1881",
+   "date_sort": "1881-04-03",
+   "status": "HELD (photo). Transcribed by Tab from the photo, 19 Oct 2026.",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0224-1881-census-llandough-rg11-5288/"
+  },
+  "EV-0225": {
+   "id": "EV-0225",
+   "kind": "evidence",
+   "title": "Trade directories, 1868–1901: John Williams at “Great House”, Llandough",
+   "date_display": "1868, 1875, 1880, 1887, 1891 and 1901",
+   "date_sort": "1868",
+   "status": "HELD (public online copy). Quotes read from the linked pages, 19 Oct 2026.",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0225-trade-directories-1868-1901-john-williams-great-house/"
+  },
+  "EV-0227": {
+   "id": "EV-0227",
+   "kind": "evidence",
+   "title": "Cardiff Times: John Williams “of Llandough Farm”, guest at the Bute rent audit dinner; tenant since 1855",
+   "date_display": "16 July 1904",
+   "date_sort": "1904-07-16",
+   "status": "HELD (public online copy).",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0227-cardiff-times-1904-john-williams-tenancy-since-1855/"
+  },
+  "EV-0228": {
+   "id": "EV-0228",
+   "kind": "evidence",
+   "title": "Llandough Farm and the Rees family, 1841–1910 (a separate farm, recorded for disambiguation)",
+   "date_display": "c.1841; 1865; 1886; 1898; 1910",
+   "date_sort": "1841",
+   "status": "HELD (public online copies).",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0228-llandough-farm-rees-family-1841-1910/"
+  },
+  "EV-0230": {
+   "id": "EV-0230",
+   "kind": "evidence",
+   "title": "Western Mail: “LLANDOUGH BRIDE”, wedding of Mr. Fred Buckler and Miss Mary Doreen (Nancy) Williams, of Great House Farm",
+   "date_display": "Wednesday 5 August 1936",
+   "date_sort": "1936-08-05",
+   "status": "PENDING — snippet only. Page image: British Newspaper Archive subscription.",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0230-western-mail-1936-llandough-bride-buckler-williams/"
+  },
+  "EV-0238": {
+   "id": "EV-0238",
+   "kind": "evidence",
+   "title": "Press: Williams entries “of Llandough Farm”, 1903 and 1914",
+   "date_display": "28 November 1903; 3 April 1914",
+   "date_sort": "1903-11-28",
+   "status": "HELD (public online copies). Identity of these people: UNRESOLVED.",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0238-williams-of-llandough-farm-1903-1914-unexplained/"
+  },
+  "EV-0239": {
+   "id": "EV-0239",
+   "kind": "evidence",
+   "title": "TNA BD 28/177: verbatim report of proceedings at the Ministry of Housing and Local Government public local inquiry into objections to the Glamorgan County Council Development Plan (Area No. 2), days 20–24",
+   "date_display": "19 November – 11 December 1958",
+   "date_sort": "1958-12-11",
+   "status": "PENDING — not yet read. Catalogue entry verified; the file itself has not been seen.",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0239-tna-bd-28-177-glamorgan-development-plan-inquiry-verbatim-1958/"
+  },
+  "EV-0243": {
+   "id": "EV-0243",
+   "kind": "evidence",
+   "title": "Barry Dock News, 23 October 1908, p.3: “Court Leet at Llandough” (court leet and court baron of the lordship of Bute)",
+   "date_display": "23 October 1908 (court held “Thursday week last”)",
+   "date_sort": "1908-10-23",
+   "status": "HELD (public online copy; OCR read in full).",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0243-barry-dock-news-1908-court-leet-john-williams-great-house/"
+  },
+  "EV-0244": {
+   "id": "EV-0244",
+   "kind": "evidence",
+   "title": "Welsh Government ATISN 26-0010 disclosure response: retention and destruction schedules; searches under the farm name, Western Ground Rents Ltd and BP Properties Ltd",
+   "date_display": "19 October 2026 (emailed 10:25 BST)",
+   "date_sort": "2026-10-19",
+   "status": "HELD — open the letter (PDF, Wayback archive). Public copy: the requester’s personal email address is redacted; nothing else is changed.",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0244-welsh-government-atisn-26-0010-disclosure-response-19-oct-2026/"
+  },
+  "EV-0249": {
+   "id": "EV-0249",
+   "kind": "evidence",
+   "title": "London Gazette, 3 July 1996 (Issue 54455, p. 8982): Western Ground Rents Ltd (no. 342092) placed in members’ voluntary liquidation with four BP companies, registered office BP House",
+   "date_display": "3 July 1996 (liquidator appointed 26 June 1996)",
+   "date_sort": "1996-07-03",
+   "status": "HELD (public online copy; read 19 Oct 2026)",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0249-london-gazette-3-jul-1996-western-ground-rents-bp-group-liquidation/"
+  },
+  "EV-0256": {
+   "id": "EV-0256",
+   "kind": "evidence",
+   "title": "George Kemp’s diary, 6–15 May 1897 (Bodleian MS. Marconi 89, extracts quoted by G. R. M. Garratt): Lavernock pole “107 ft”, Flat Holm “110 ft”, apparatus left “at Penarth”; no mention of Great House Farm",
+   "date_display": "6–15 May 1897",
+   "date_sort": "1897-05-15",
+   "status": "SOURCE PENDING (diary not seen; free reading-room inspection possible)",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0256-kemp-diary-lavernock-1897-bodleian-ms-marconi-89/"
+  },
+  "EV-0263": {
+   "id": "EV-0263",
+   "kind": "evidence",
+   "title": "Commons Registration Act 1965 s.5 and SI 1968/989: registrations were publicised by public notice only; Glamorgan County Council’s London Gazette notices of 22 October 1968 and 24 October 1969; second objection period for VG41 ran 1 May 1970 – 31 July 1972",
+   "date_display": "1968–1972 (objection period ended 31 July 1972)",
+   "date_sort": "1972-07-31",
+   "status": "HELD (texts read 19 Oct 2026); the 1970 Glamorgan second-period notice listing VG41 NOT FOUND (Gazette OCR)",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0263-commons-registration-1965-publicity-glamorgan-notices-vg41/"
+  },
+  "EV-0277": {
+   "id": "EV-0277",
+   "kind": "evidence",
+   "title": "London Gazette, 3 July 1996 (p.8990) and 18 April 1997 (p.4683): Western Ground Rents Ltd’s members’ voluntary winding-up: notice to creditors (“All known Creditors have been or will be paid in full”) and final meetings on 16 May 1997 to lay an account of how “the property of the Companies have been disposed of”",
+   "date_display": "26 June 1996 (notice); 16 May 1997 (final meetings)",
+   "date_sort": "1996-06-26",
+   "status": "HELD (notices read 20 Oct 2026)",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0277-london-gazette-1996-1997-western-ground-rents-creditors-and-final-meetings/"
+  },
   "EV-0284": {
    "id": "EV-0284",
    "kind": "evidence",
@@ -397,6 +512,33 @@
    "date_sort": "1923-00-00",
    "status": "HELD (copy)",
    "page": null
+  },
+  "EV-0513": {
+   "id": "EV-0513",
+   "kind": "evidence",
+   "title": "Llandough Community Council, agenda for the Council meeting of Thursday 22 October 2026 at 7.00pm (held remotely only), issued 13 October 2026. Item 10: a request about recollections of the village from the 1950s to the 1990s and about the 1,026 burials beneath Church View Close, the former site of Great House Farm (Tŷ Mawr)",
+   "date_display": "13 October 2026 (agenda issued); 22 October 2026 (meeting)",
+   "date_sort": "2026-10-13",
+   "status": "HELD (agenda read in full, 23 Oct 2026). Minutes of the 22 October 2026 meeting: not yet published at 09:45 BST on 23 October 2026.",
+   "page": "https://research.bucklerfamily.estate/evidence/ev-0513-llandough-community-council-agenda-22-october-2026-item-10/"
+  },
+  "EV-0614": {
+   "id": "EV-0614",
+   "kind": "evidence",
+   "title": "Mountjoy Ltd in the Bute estate catalogue: \"In 1926, the remaining Bute property was incorporated under a private family company called Mountjoy Ltd\" (TNA Discovery, GB 0214 DB administrative history)",
+   "date_display": "1926 per the catalogue (company formed May 1922, EV-0624); 1938 sale",
+   "date_sort": "1922-05",
+   "status": "READ (catalogue text); company records not yet seen.",
+   "page": "https://cedwyn.bucklerfamily.estate/research/evidence/ev-0614-mountjoy-ltd-1926-tna-catalogue/"
+  },
+  "EV-0617": {
+   "id": "EV-0617",
+   "kind": "evidence",
+   "title": "The twelve-year rule for land: Real Property Limitation Act 1874 (from 1 January 1879), restated by the Limitation Act 1939 (in force 1 July 1940)",
+   "date_display": "1 January 1879; 1 July 1940",
+   "date_sort": "1879-01-01",
+   "status": "READ.",
+   "page": "https://cedwyn.bucklerfamily.estate/research/evidence/ev-0617-twelve-year-limitation-rule-1879-1940/"
   },
   "EV-0629": {
    "id": "EV-0629",
@@ -586,6 +728,24 @@
    "date_sort": "1920-01-01",
    "status": "HELD (online copy)",
    "page": null
+  },
+  "MR-0060": {
+   "id": "MR-0060",
+   "kind": "missing_record",
+   "title": "Measured drawings of Great House Farm beyond the 1974 ground plan: first floor, roof, heights, the farm ranges and the yard (open question)",
+   "date_display": "1974-1988",
+   "date_sort": "1974",
+   "status": "OPEN QUESTION",
+   "page": "/research/missing-records/#mr-0060"
+  },
+  "MR-0061": {
+   "id": "MR-0061",
+   "kind": "missing_record",
+   "title": "Thomas v Hurst (1812-1813): the Chancery decree, the Master's report naming the buyers, and the sale particulars with their lot plan for the Llandough-juxta-Penarth freeholds",
+   "date_display": "1812-1813",
+   "date_sort": "1812",
+   "status": "CATALOGUED, NOT YET VIEWED",
+   "page": "/research/missing-records/#mr-0061"
   }
  }
 }

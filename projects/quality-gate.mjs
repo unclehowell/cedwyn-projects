@@ -26,6 +26,6 @@ ok(!pid.includes("Every 6 hours (research flywheel)"),"PID must not claim unsupp
 ok(pid.includes("no autonomous external sending"),"PID must state outbound communication gate");
 ok(stages.includes("baseline finish 1 Nov 2026 passed")&&stages.includes("S2 stage-entry approval"),"stage plan must expose missed baseline and stage-exit gate");
 ok(controls.includes("Candidate is not a finding")&&controls.includes("external report"),"continuity controls must preserve the allegation/reporting stop gate");
-ok(snapshot.includes("30 October 2026"),"historic snapshot must retain its true as-of date");
+ok(snapshot.includes("2026-10-30"),"historic snapshot must retain its true as-of date");
 if(errors.length){console.error("PROJECT OFFICE INTEGRITY GATE FAILED");for(const e of errors)console.error(" - "+e);process.exitCode=1;}
 else console.log("PROJECT OFFICE INTEGRITY GATE PASSED");

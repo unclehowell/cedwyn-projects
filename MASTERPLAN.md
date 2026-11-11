@@ -1,3 +1,13 @@
+# LEGACY ARCHIVE — DATRO Flywheel master plan (non-authoritative)
+
+> **Do not use this file as the current Project Office architecture or operating instruction.** It describes a prior DATRO-era design, including experimental crypto-wallet/compute-emulation language, a ten-minute cron loop and direct arbitrary-branch writes. Those statements are historical content only and are not evidence that such a system is deployed or authorised. The Project Office source is now the dedicated split repository.
+
+Current authoritative documents: PROJECT-OFFICE-CONTROLS.md, README.md and the implementation under projects/.
+
+The original text is preserved below for provenance; do not execute or rely on it.
+
+---
+
 # DATRO Flywheel — Master Plan
 
 ## Architecture Overview

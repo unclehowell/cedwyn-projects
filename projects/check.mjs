@@ -8,7 +8,7 @@ console.log("estate", JSON.stringify(runEstate())); // independence: wiki links 
 // ghf-lang (20 Oct 2026) + header standard v2.1.2 (22 Oct 2026; was v2.0.3 on 21 Oct): language dropdown and the synchronous ghf-boot.js loader
 // (bars before the first paint) on every page (idempotent; versioned so phones pick up a new release at once)
 {
-  const GHF_LANG = '<script src="https://bucklerfamily.estate/ghf-lang/ghf-lang.js?v=2.0.3" defer></script>';
+  const GHF_LANG = '<script src="https://bucklerfamily.estate/ghf-lang/ghf-lang.js?v=2.1.2" defer></script>';
   const GHF_BOOT = '<script src="https://bucklerfamily.estate/ghf-lang/ghf-boot.js?v=2.1.2"></script>';
   const rootL = path.join(path.dirname(new URL(import.meta.url).pathname), "public"); let nL = 0;
   (function walkL(d) { for (const f of fs.readdirSync(d)) { const p = path.join(d, f); if (fs.statSync(p).isDirectory()) walkL(p); else if (f.endsWith(".html")) { let t = fs.readFileSync(p, "utf8"); const t0 = t; if (!t.includes("</head>")) continue;

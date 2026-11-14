@@ -1,0 +1,37 @@
+name: Project Office integrity
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "projects/public/**"
+      - "projects/quality-gate.mjs"
+      - "README.md"
+      - "MASTERPLAN.md"
+      - "PROJECT-OFFICE-CONTROLS.md"
+      - ".github/workflows/project-office-integrity.yml"
+  push:
+    branches: [main]
+    paths:
+      - "projects/public/**"
+      - "projects/quality-gate.mjs"
+      - "README.md"
+      - "MASTERPLAN.md"
+      - "PROJECT-OFFICE-CONTROLS.md"
+      - ".github/workflows/project-office-integrity.yml"
+permissions:
+  contents: read
+  pull-requests: read
+concurrency:
+  group: project-office-integrity-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run Project Office integrity checks
+        run: node projects/quality-gate.mjs

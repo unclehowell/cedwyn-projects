@@ -546,6 +546,9 @@ def stages_html(d):
 
 def patch_html(s, d):
     s = fix_words(s)
+    if '/2027-foi-programme/calendar/' not in s:
+        s = s.replace('<a href="/programme-plan/">Master plan</a>',
+                      '<a href="/programme-plan/">Master plan</a> · <a href="/2027-foi-programme/calendar/">2027 enquiry calendar</a>')
     s = s.replace("with 39 institution subprojects", "with 88 institution and recipient subprojects in four tiers")
     # facts line
     s = re.sub(r'<li>Tasks <b>[^<]*</b></li>(?:<li>Programme % <b>.*?</b></li><li>Next gate <b>.*?</b></li>)?',

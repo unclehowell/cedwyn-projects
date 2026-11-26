@@ -264,7 +264,7 @@ TOLERANCES = [
     dict(area="Cost", programme="£0", lane="£0", statutory="Any proposed spend is an exception to the Executive"),
     dict(area="Scope", programme="Cedwyn estate (Llandough-juxta-Penarth / Leckwith) only; lanes added or re-tiered only by change control", lane="Request scope may not be narrowed without a written scope analysis", statutory="—"),
     dict(area="Quality", programme="0 unsourced public statements; 0 banned public words; 100% of sends QA-approved", lane="Product accepted only against its quality criteria", statutory="—"),
-    dict(area="Executive load", programme="≤ 8 outbound sends per working day; ≤ 5 hours decisions per week (measured, issue #13)", lane="≤ 1 new request per body per working day", statutory="—"),
+    dict(area="Executive load", programme="≤ 2 outbound sends per working day; ≤ 5 hours decisions per week (measured, issue #13)", lane="≤ 1 new request per body per working day", statutory="—"),
     dict(area="Benefits", programme="B1 forecast < 80% at G3 → exception", lane="—", statutory="—"),
     dict(area="Risk", programme="Any risk scoring ≥ 15 (5×5) escalated to the Executive the same day", lane="Any lane BLOCKED > 10 working days → exception", statutory="—"),
     dict(area="Sustainability", programme="Free-tier infrastructure only; no new paid services", lane="—", statutory="—"),

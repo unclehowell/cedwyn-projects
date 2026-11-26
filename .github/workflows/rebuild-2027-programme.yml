@@ -39,7 +39,7 @@ jobs:
           assert "£0" in t["Cost"]["programme"] and "PAUSE" in t["Cost"]["lane"]
           assert "≤ 2 outbound messages per working day" in t["Executive load"]["programme"]
           assert "five hours" not in t["Executive load"]["programme"].lower()
-          assert "no paid exception" in d["business_case"]["investment_appraisal"].lower()
+          assert "PAUSE" in d["business_case"]["investment_appraisal"] and "NO SPEND" in d["business_case"]["investment_appraisal"]
           assert "2027-foi-programme/calendar/" in html
           before=(jp.read_bytes(),hp.read_bytes())
           subprocess.run(["python3","tools/build_2027_plan.py"],check=True)

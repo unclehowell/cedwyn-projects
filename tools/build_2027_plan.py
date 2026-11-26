@@ -437,9 +437,13 @@ def build(d):
         inst["percent_complete"] = mean([m["percent_complete"] for m in inst["milestones"]])
         lanes_out.append(inst)
     wt = {1: 3, 2: 2, 3: 1, 4: 1}
-    num = sum((l["percent_complete"] or 0) * wt[l["tier"]] for l in lanes_out)
-    den = sum(wt[l["tier"]] for l in lanes_out)
-    d["percent_complete"] = round(num / den, 1)
+    # Fully cancelled lanes have no progress value and must leave both the
+    # numerator and denominator; counting their tier weight as zero progress
+    # contradicts the roll-up rule in PROGRESS_RULES.
+    active_lanes = [l for l in lanes_out if l["percent_complete"] is not None]
+    num = sum(l["percent_complete"] * wt[l["tier"]] for l in active_lanes)
+    den = sum(wt[l["tier"]] for l in active_lanes)
+    d["percent_complete"] = round(num / den, 1) if den else 0.0
     d["counts"] = {"lanes": len(lanes_out), "tasks": sum(len(l["tasks"]) for l in lanes_out),
                    "by_tier": {str(t): len(v["lanes"]) for t, v in TIERS.items()}}
     log = d.get("change_log", [])

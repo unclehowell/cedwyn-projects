@@ -238,18 +238,18 @@ BUSINESS_CASE = dict(
         dict(id="B5", name="Requester-side clock discipline", measure="Chases raised on the first overdue working day",
              baseline="2026: follow-up not systematic (lessons log)", target="100%; 0 missed", owner="Project Manager", measured="Daily control audit"),
     ],
-    dis_benefits=["Executive time (he sends every request and makes every decision) — capped by the Executive-load tolerance.",
+    dis_benefits=["Executive time (he sends every request and makes every decision) — measured through weekly time-use reviews and controlled by staged waves.",
                   "Strain on relationships with bodies if requests overlap — controlled by one request per body per day and the duplicate check in PD27-06."],
     timescale="25 Nov 2026 (mobilise) to 17 Dec 2027 (G4).",
     costs="£0 cash (standing zero-spend rule). Cost is Executive time and agent compute on existing free tiers.",
-    investment_appraisal="Free routes only: FOIA/EIR/SAR, archive enquiries, published catalogues. Any paid copy is out of tolerance and needs an Executive decision.",
+    investment_appraisal="Free routes only: FOIA/EIR/SAR where applicable, voluntary archive enquiries and published catalogues. Any fee, paid copy or paywall is PAUSE—NO SPEND; use a free alternative or close that avenue.",
     major_risks="See RAID: Executive capacity, repeat-request refusals, homonym errors, retention loss, public-wording breaches.",
     benefits_review="Measured in each monthly highlight report and at every gate; post-programme benefits review in Q1 2028.",
 )
 
 STANDING_RULES = [
     "Research, not litigation: the programme raises queries about records; it does not bring proceedings.",
-    "Zero spend.",
+    "Zero spend. Any fee, paywall, paid copy, subscription, postage, licence or travel cost is PAUSE—NO SPEND; no paid exception.",
     "Agents draft; the Executive sends every email and makes every external contact.",
     "Agents propose by pull request; merging is the Executive's.",
     "Every statement cites catalogued evidence; missing evidence gets an 'evidence pending' record, not a conclusion.",
@@ -261,10 +261,10 @@ STANDING_RULES = [
 
 TOLERANCES = [
     dict(area="Time", programme="G4 on 17 Dec 2027 ± 0; stage ends ± 10 working days", lane="Milestone finish + 5 working days", statutory="0 days — requester actions on statutory dates never slip"),
-    dict(area="Cost", programme="£0", lane="£0", statutory="Any proposed spend is an exception to the Executive"),
+    dict(area="Cost", programme="£0 cash — no paid exception", lane="£0; PAUSE—NO SPEND on fees/paywalls", statutory="No paid route; record the barrier and search free alternatives"),
     dict(area="Scope", programme="Cedwyn estate (Llandough-juxta-Penarth / Leckwith) only; lanes added or re-tiered only by change control", lane="Request scope may not be narrowed without a written scope analysis", statutory="—"),
     dict(area="Quality", programme="0 unsourced public statements; 0 banned public words; 100% of sends QA-approved", lane="Product accepted only against its quality criteria", statutory="—"),
-    dict(area="Executive load", programme="≤ 2 outbound sends per working day; ≤ 5 hours decisions per week (measured, issue #13)", lane="≤ 1 new request per body per working day", statutory="—"),
+    dict(area="Executive load", programme="≤ 2 outbound messages per working day; weekly time-use review; measure time per evidence outcome (no fixed weekly hours cap assumed)", lane="≤ 1 new first request per body per working day", statutory="—"),
     dict(area="Benefits", programme="B1 forecast < 80% at G3 → exception", lane="—", statutory="—"),
     dict(area="Risk", programme="Any risk scoring ≥ 15 (5×5) escalated to the Executive the same day", lane="Any lane BLOCKED > 10 working days → exception", statutory="—"),
     dict(area="Sustainability", programme="Free-tier infrastructure only; no new paid services", lane="—", statutory="—"),
@@ -283,7 +283,7 @@ RAID = [
     dict(id="R27-10", type="risk", title="Personal data of living people published from correspondence", p=2, i=4, response="Avoid: QA privacy check before publication (issue #20).", owner="QA agent"),
     dict(id="A27-01", type="assumption", title="Bute archive (Mount Stuart) resumes external enquiries in January 2027", p=None, i=None, response="Check first working week of January; if not, re-plan SP27-44 at G1.", owner="Executive"),
     dict(id="A27-02", type="assumption", title="Existing free tiers (Cloudflare, GitHub, HubSpot) remain available through 2027", p=None, i=None, response="Review at each gate.", owner="Project Manager"),
-    dict(id="I27-01", type="issue", title="Cost tolerance conflict: Parcel A Project Plan shows S0 £0–£800; standing rule is zero spend", p=None, i=None, response="Executive to confirm £0 at G0 and amend the Parcel A plan.", owner="Executive"),
+    dict(id="I27-01", type="issue", title="Parcel A plan still carries a legacy £0–£800 allowance; it must be amended to reflect the confirmed no-spend rule", p=None, i=None, response="No expenditure is authorised. Amend the Parcel A plan to £0 cash and mark every fee-bearing or paywalled route PAUSE—NO SPEND; use a free alternative or close it.", owner="Executive"),
     dict(id="I27-02", type="issue", title="HR-07 still open; 2026 datasets unreconciled", p=None, i=None, response="Close in P0 (GWP-01, GWP-13) before G0.", owner="Project Manager"),
 ]
 

@@ -1,4 +1,5 @@
 name: One-off 2027 programme regeneration
+# Retry after restoring the real source JSON and HTML inputs.
 on:
   push:
     branches:
